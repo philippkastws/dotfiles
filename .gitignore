@@ -1,4 +1,4 @@
-# Ignore everything
+# ignore everything (dirs, files, sub-dirs, sub-files)
 /*
 
 # But not these files...
@@ -6,5 +6,18 @@
 
 !starship.toml
 
+# do not ignore ranger dir (needed due to the above bullet point)
+!/ranger
+# ignore files and sub dirs in the ranger directory
+/ranger/*
+# but do not ignore the rc.conf file
+!/ranger/rc.conf
+
 !wezterm/
 
+# do not ignore fish dir (needed due to the above bullet point)
+!/fish
+# ignore files and sub dirs in the /fish directory
+/fish/*
+# but do not ignore the config.fish file
+!/fish/config.fish
