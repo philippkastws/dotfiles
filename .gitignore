@@ -6,14 +6,16 @@
 
 !starship.toml
 
+# But not these folders...
+!wezterm/
+
+
 # do not ignore ranger dir (needed due to the above bullet point)
 !/ranger
 # ignore files and sub dirs in the ranger directory
 /ranger/*
 # but do not ignore the rc.conf file
 !/ranger/rc.conf
-
-!wezterm/
 
 # do not ignore fish dir (needed due to the above bullet point)
 !/fish
