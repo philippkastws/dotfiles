@@ -23,3 +23,5 @@
 /fish/*
 # but do not ignore the config.fish file
 !/fish/config.fish
+
+!tmux/
