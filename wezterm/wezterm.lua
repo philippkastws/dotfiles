@@ -57,7 +57,8 @@ config.initial_rows = 50
 config.check_for_updates = true
 
 config.colors = {
-  cursor_bg = "#4C566A",
+  cursor_bg = "#eeeeee",
+  cursor_fg = '#111111',
   cursor_border = "#4C566A",
   tab_bar = {
 --     -- The color of the strip that goes along the top of the window
