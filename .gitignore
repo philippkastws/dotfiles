@@ -25,3 +25,5 @@
 !/fish/config.fish
 
 !tmux/
+
+!mc/
