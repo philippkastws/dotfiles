@@ -114,3 +114,8 @@ starship init fish | source
 
 
 test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
+
+if not set --query fish_private_mode
+  history merge
+end
+
