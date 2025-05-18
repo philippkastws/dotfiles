@@ -107,7 +107,7 @@ set fish_cursor_insert block
 #__check_nvm
 
 # Configuration for: fisher install PatrickF1/fzf.fish
-fzf_configure_bindings --directory=\cf --history=\ce
+fzf_configure_bindings --directory=\ec --history=\ce
 
 fzf --fish | source
 
