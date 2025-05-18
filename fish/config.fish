@@ -23,6 +23,8 @@ alias bat='bat --paging=always'
 # set nvim as editor
 set -gx EDITOR nvim
 
+set fish_cursor_insert block
+
 # Install node on cd
 #function __check_nvm --on-variable PWD --description 'Do nvm stuff'
 #  if test -f .nvmrc
