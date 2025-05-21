@@ -10,3 +10,4 @@ shell-integration-features = no-cursor
 window-save-state = always
 quit-after-last-window-closed=true
 macos-titlebar-style = tabs
+background = #2d353b
