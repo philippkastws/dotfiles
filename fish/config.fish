@@ -130,3 +130,8 @@ function y
 	end
 	rm -f -- "$tmp"
 end
+
+# reasonable use clipboard in vi mode
+bind yy fish_clipboard_copy
+bind Y fish_clipboard_copy
+bind p fish_clipboard_paste
