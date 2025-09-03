@@ -3,11 +3,13 @@ font-style = Bold
 # font-style-bold = Bold
 # font-style-italic = Medium Italic
 # font-style-bold-italic = Bold Italic
-font-size = 16
+font-size = 15
 cursor-style = block
 cursor-style-blink = false
 shell-integration-features = no-cursor
 window-save-state = always
 quit-after-last-window-closed=true
 macos-titlebar-style = tabs
-background = #2d353b
+#background = #2d353b
+theme = SpaceGray Eighties
+
