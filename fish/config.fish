@@ -138,3 +138,6 @@ bind Y fish_clipboard_copy
 # in visual mode, copy and exit visual mode
 bind -s --preset -M visual -m default Y "fish_clipboard_copy; commandline -f end-selection repaint-mode"
 bind p fish_clipboard_paste
+
+alias claude='/Users/kast/.claude/local/claude'
+
