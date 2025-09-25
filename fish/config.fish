@@ -141,3 +141,6 @@ bind p fish_clipboard_paste
 
 alias claude='/Users/kast/.claude/local/claude'
 
+# for cursor CLI
+fish_add_path $HOME/.local/bin
+
