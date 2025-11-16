@@ -16,3 +16,5 @@ macos-titlebar-style = tabs
 #background = #2d353b
 theme = SpaceGray Eighties
 #macos-option-as-alt = true
+macos-option-as-alt = left
+
