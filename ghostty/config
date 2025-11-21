@@ -1,4 +1,4 @@
-#font-family = Hack Nerd Font
+font-family = Hack Nerd Font
 #font-family = Hack Nerd Font Mono Bold
 #font-family = Courier New Bold
 font-style = Bold
@@ -6,7 +6,7 @@ font-thicken = true
 # font-style-bold = Bold
 # font-style-italic = Medium Italic
 # font-style-bold-italic = Bold Italic
-font-size = 15
+font-size = 16
 cursor-style = block
 cursor-style-blink = false
 shell-integration-features = no-cursor
