@@ -1,4 +1,24 @@
+" nnoremap <C-j> J
+" nnoremap <C-j> K
+
 map J <C-d>
 map K <C-u>
 
+" map easymotion to s
 map s <leader><leader>s
+
+" Map jk to escape
+inoremap jk <Esc>l
+"inoremap jk <Esc>`^
+
+set clipboard+=unnamedplus
+
+" Commands to not save to clipboard
+nnoremap <BS> "_X
+nnoremap <C-BS> "_x
+nnoremap d "_d
+nnoremap C "_C
+nnoremap c "_c
+vnoremap d "_d
+vnoremap C "_C
+vnoremap c "_c
