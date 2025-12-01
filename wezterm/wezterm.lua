@@ -38,8 +38,8 @@ config.window_decorations = "INTEGRATED_BUTTONS|RESIZE"
 -- config.window_close_confirmation = "NeverPrompt"
 
 config.window_padding = {
-	left = "24px",
-	right = "24px",
+	left = "12px",
+	right = "12px",
 	top = "1.5cell",
 	bottom = "0.5cell",
 }
