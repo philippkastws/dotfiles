@@ -132,14 +132,6 @@ function y
 	rm -f -- "$tmp"
 end
 
-# reasonable use clipboard in vi mode
-bind yy fish_clipboard_copy
-bind Y fish_clipboard_copy
-bind x fish_clipboard_cut
-# in visual mode, copy and exit visual mode
-bind -s --preset -M visual -m default Y "fish_clipboard_copy; commandline -f end-selection repaint-mode"
-bind p fish_clipboard_paste
-
 alias claude='/Users/kast/.claude/local/claude'
 
 # for cursor CLI
