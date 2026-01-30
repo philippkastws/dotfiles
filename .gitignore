@@ -23,6 +23,12 @@
 /fish/*
 # but do not ignore the config.fish file
 !/fish/config.fish
+# do not ignore the fish/functions directory
+!/fish/functions
+# ignore files and sub dirs in the /fish/functions directory
+/fish/functions/*
+# but do not ignore the fish_user_key_bindings.fish file
+!/fish/functions/fish_user_key_bindings.fish
 
 !tmux/
 
