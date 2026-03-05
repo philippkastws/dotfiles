@@ -24,7 +24,7 @@ config.font = wezterm.font_with_fallback {
   'MesloLGS NF',
   'KanjiStrokeOrders'
 }
-config.font_size = 14
+config.font_size = 15
 
 --config.color_scheme = 'Batman'
 config.color_scheme = 'SpaceGray Eighties'
