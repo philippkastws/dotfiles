@@ -51,6 +51,12 @@ config.window_padding = {
 -- 		action = wezterm.action.DisableDefaultAssignment,
 -- 	},
 -- }
+config.keys = {
+  {key="LeftArrow", mods="CMD|OPT", action=wezterm.action{ActivateTabRelative=-1}},
+  {key="RightArrow", mods="CMD|OPT", action=wezterm.action{ActivateTabRelative=1}},
+  {key="LeftArrow", mods="CMD", action=wezterm.action{ActivateTabRelative=-1}},
+  {key="RightArrow", mods="CMD", action=wezterm.action{ActivateTabRelative=1}},
+}
 
 config.initial_cols = 120
 config.initial_rows = 50
