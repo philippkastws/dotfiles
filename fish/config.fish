@@ -132,8 +132,6 @@ function y
 	rm -f -- "$tmp"
 end
 
-alias claude='/Users/kast/.claude/local/claude'
-
 # for cursor CLI
 fish_add_path $HOME/.local/bin
 
