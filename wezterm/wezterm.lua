@@ -139,6 +139,8 @@ config.colors = {
   },
 }
 
+config.window_background_image = '/Users/kast/.config/wezterm/stella2.jpg'
+
 -- and finally, return the configuration to wezterm
 return config
 
