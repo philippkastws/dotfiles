@@ -1,0 +1,2 @@
+#!/bin/bash
+git diff $@ | delta --dark --syntax-theme=Coldark-Dark -n --paging=always --true-color=always --navigate --tabs 2

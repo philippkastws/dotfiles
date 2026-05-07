@@ -1,0 +1,5 @@
+#!/bin/bash
+function git_current_branch() {
+  git branch --show-current
+}
+git_current_branch

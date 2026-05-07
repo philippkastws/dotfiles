@@ -1,0 +1,3 @@
+#!/bin/bash
+#delta --side-by-side --dark --syntax-theme=Coldark-Dark -n $1 $2
+delta --side-by-side --dark --syntax-theme=DarkNeon --navigate -n $1 $2

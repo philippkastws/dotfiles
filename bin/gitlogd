@@ -1,0 +1,5 @@
+#!/bin/bash
+#git log -p $1 | delta --dark --syntax-theme=Coldark-Dark -n
+#git log -p $1 | delta --dark --syntax-theme=zenburn -n
+#git log -p $1 | delta --dark --syntax-theme=Dracula -n
+git log $@ -p | delta --dark --syntax-theme=Coldark-Dark -n --commit-decoration-style=box --paging=always --navigate
