@@ -6,6 +6,7 @@ end
 alias gis="git status"
 alias gld="gitlogd"
 alias gdd="gitdiffd"
+alias gddn="gitdiffdnav"
 
 # map eza commands to normal ls commands
 alias lla="eza -l -a -g --icons"
