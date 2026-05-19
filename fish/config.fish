@@ -136,3 +136,9 @@ end
 # for cursor CLI
 fish_add_path $HOME/.local/bin
 
+
+# Merge history on exit
+function save_and_merge_history --on-process-exit %self
+    builtin history --merge
+end
+
