@@ -31,6 +31,8 @@
 !/fish/functions/fish_user_key_bindings.fish
 
 !tmux/
+# but ignore tmux/plugins
+tmux/plugins/
 
 !ghostty/
 
