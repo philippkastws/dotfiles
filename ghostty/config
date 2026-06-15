@@ -26,3 +26,4 @@ keybind = super+arrow_right=next_tab
 background-opacity = 0.80
 background-blur-radius = 20
 background-image = "/Users/kast/.config/ghostty/one-sedond.jpg"
+background-image-fit = cover
