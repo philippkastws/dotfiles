@@ -23,7 +23,11 @@ macos-option-as-alt = left
 keybind = super+arrow_left=previous_tab
 keybind = super+arrow_right=next_tab
 
-background-opacity = 0.80
+background-opacity = 0.75
+# Optional: Add a nice blur effect behind the window transparency
+background-blur = true
 background-blur-radius = 20
 background-image = "/Users/kast/.config/ghostty/one-sedond.jpg"
 background-image-fit = cover
+# Force text/cell backgrounds (like Neovim's CursorLine) to follow the opacity
+background-opacity-cells = true
