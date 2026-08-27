@@ -21,6 +21,9 @@ alias glgp='git log --stat -p'
 
 alias bat='bat --paging=always'
 
+# less case insensitive find
+set -gx LESS -i
+
 # set nvim as editor
 set -gx EDITOR nvim
 

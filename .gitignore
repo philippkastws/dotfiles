@@ -6,6 +6,8 @@
 
 !starship.toml
 
+!lesskey
+
 # But not these folders...
 !wezterm/
 
