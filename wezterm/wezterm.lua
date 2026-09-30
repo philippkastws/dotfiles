@@ -142,7 +142,7 @@ config.colors = {
 config.window_background_image = '/Users/kast/.config/wezterm/stella2.jpg'
 
 config.window_background_opacity = 0.70
-config.macos_window_background_blur = 20
+config.macos_window_background_blur = 10
 config.text_background_opacity = 0.70
 
 -- and finally, return the configuration to wezterm
