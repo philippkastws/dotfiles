@@ -41,3 +41,6 @@ tmux/plugins/
 !.vscodevimrc
 
 !bin/
+
+!bat/
+
