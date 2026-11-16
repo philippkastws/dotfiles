@@ -1,0 +1,12 @@
+# See the full configuration reference: https://rioterm.com/docs/config
+
+# Font Configuration
+[fonts]
+family = "Hack Nerd Font"
+size = 15
+
+# Window and Appearance
+[window]
+opacity = 0.35
+blur = true
+

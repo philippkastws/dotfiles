@@ -38,6 +38,8 @@ tmux/plugins/
 
 !ghostty/
 
+!rio/
+
 !.vscodevimrc
 
 !bin/
