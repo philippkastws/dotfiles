@@ -27,8 +27,8 @@ set -gx LESS "i R"
 # set nvim as editor
 set -gx EDITOR nvim
 
-set fish_cursor_insert block
-set fish_cursor_default block blink
+# set fish_cursor_insert block
+# set fish_cursor_default block blink
 
 # Install node on cd
 #function __check_nvm --on-variable PWD --description 'Do nvm stuff'
